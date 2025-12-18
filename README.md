@@ -187,6 +187,19 @@ SHL_Assessment/
 └── requirements.txt
 ```
 
+## Demo Screenshots
+
+The following screenshots demonstrate the system in action:
+
+**Input Interface**
+![System Input](screenshots/demo_input.png)
+
+**Results Display**
+![Recommendation Results](screenshots/demo_results.png)
+
+**Link Verification**
+![SHL Assessment Page](screenshots/demo_link.png)
+
 ## Notes for Reviewers
 
 This repository contains only essential production code and documentation. All unnecessary files, test scripts, and debugging artifacts have been removed. The codebase is designed for automated testing with deterministic, reproducible outputs. All external links point to publicly accessible resources.
