@@ -81,6 +81,50 @@ Response:
 
 The API is designed for automated testing and returns consistent, deterministic results.
 
+## Example Usage
+
+Here are three example test cases demonstrating the system's capabilities:
+
+**Example 1: Technical Role with Soft Skills**
+
+Query:
+```
+I am hiring for Java developers who can also collaborate effectively with my business teams.
+```
+
+Expected Top Results:
+- Java 8 (26% relevance)
+- Core Java Entry Level (24% relevance)
+- Core Java Advanced Level (23% relevance)
+- Javascript (20% relevance)
+- Business Communication Adaptive (19% relevance)
+
+**Example 2: Entry-Level Sales Position**
+
+Query:
+```
+I want to hire new graduates for a sales role in my company
+```
+
+Expected Top Results:
+- Entry Level Sales assessments (35-40% relevance)
+- Sales Representative Solution (30-35% relevance)
+- Professional skills assessments (25-30% relevance)
+
+**Example 3: Executive Leadership Role**
+
+Query:
+```
+Looking for a COO who is culturally aware for my company in China
+```
+
+Expected Top Results:
+- OPQ Team Types And Leadership (28-32% relevance)
+- Global Skills Assessment (25-30% relevance)
+- Leadership and management assessments (20-25% relevance)
+
+Note: Relevance scores are deterministic and based on semantic similarity (60%), keyword overlap (30%), and test type alignment (10%).
+
 ## Running the Project
 
 **Install Dependencies**
