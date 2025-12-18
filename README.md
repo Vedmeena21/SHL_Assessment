@@ -2,6 +2,14 @@
 
 A machine learning system that recommends relevant SHL individual test solutions based on natural language job descriptions or candidate profiles. The system processes queries and returns 5-10 ranked assessments with relevance scores.
 
+## Live Deployment
+
+**Frontend (Vercel)**: https://vedshl.vercel.app/  
+**Backend API (Render)**: https://shl-assessment-api-ma2y.onrender.com  
+**API Documentation**: https://shl-assessment-api-ma2y.onrender.com/docs
+
+Note: The backend may take 30-60 seconds to respond on the first request after a period of inactivity (free tier limitation).
+
 ## Problem Statement
 
 Organizations need to quickly identify appropriate SHL assessments for hiring scenarios based on job descriptions, role requirements, or candidate profiles. This system automates that process by accepting natural language input and returning ranked assessment recommendations with relevance scores. The focus is on delivering accurate, diverse recommendations that balance technical knowledge tests, behavioral assessments, and skill evaluations.

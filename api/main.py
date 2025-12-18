@@ -149,9 +149,10 @@ async def startup_event():
 
 
 @app.get("/health", response_model=HealthResponse)
+@app.head("/health")
 async def health_check():
     """
-    Health check endpoint
+    Health check endpoint (supports both GET and HEAD)
     
     Returns API status and basic information
     """
