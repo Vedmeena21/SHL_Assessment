@@ -10,6 +10,14 @@ A machine learning system that recommends relevant SHL individual test solutions
 
 Note: The backend may take 30-60 seconds to respond on the first request after a period of inactivity (free tier limitation).
 
+## Technology Stack
+
+**Backend**: FastAPI (Python 3.11+)  
+**Vector Store**: ChromaDB  
+**Embeddings**: Sentence Transformers (all-MiniLM-L6-v2)  
+**LLM**: Google Gemini (gemini-1.5-flash)  
+**Frontend**: Next.js 14 (React, TypeScript, Tailwind CSS)
+
 ## Problem Statement
 
 Organizations need to quickly identify appropriate SHL assessments for hiring scenarios based on job descriptions, role requirements, or candidate profiles. This system automates that process by accepting natural language input and returning ranked assessment recommendations with relevance scores. The focus is on delivering accurate, diverse recommendations that balance technical knowledge tests, behavioral assessments, and skill evaluations.
