@@ -71,3 +71,7 @@ Thumbs.db
 # Test outputs
 predictions.csv
 dataset_analysis.json
+
+# Submission files (not to be committed)
+ved_meena.csv
+explanation.pdf

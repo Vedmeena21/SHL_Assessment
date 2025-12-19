@@ -125,10 +125,15 @@ export default function Home() {
                                     Analyzing...
                                 </span>
                             ) : (
-                                '🚀 Get Recommendations'
+                                'Get Recommendations'
                             )}
                         </button>
                     </form>
+
+                    {/* Backend Note */}
+                    <p className="text-sm text-gray-500 text-center mt-3">
+                        Note: First query may take 30-60 seconds as the backend (Render free tier) wakes up.
+                    </p>
                 </div>
 
                 {/* Error Display */}
@@ -183,8 +188,8 @@ export default function Home() {
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap text-sm">
                                                 <span className={`px-3 py-1 rounded-full text-xs font-semibold ${assessment.test_type === 'K' ? 'bg-blue-100 text-blue-800' :
-                                                        assessment.test_type === 'P' ? 'bg-green-100 text-green-800' :
-                                                            'bg-gray-100 text-gray-800'
+                                                    assessment.test_type === 'P' ? 'bg-green-100 text-green-800' :
+                                                        'bg-gray-100 text-gray-800'
                                                     }`}>
                                                     {assessment.test_type === 'K' ? 'Knowledge' :
                                                         assessment.test_type === 'P' ? 'Personality' :
